@@ -5,10 +5,6 @@ import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
 
-
-/**
- * Created by YukiOnna on 3/28/2016.
- */
 public class MainTest {
     @Test
     public  void validateTest(){
