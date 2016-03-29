@@ -5,11 +5,12 @@ import java.util.*;
 import java.io.*;
 
 class Main {
+
     static String addOrderTemplate = "28800538 A b S 44.26 100";
     static String reduceOrderTemplate = "28800744 R b 100";
     static String reduceOrder = "R";
-    static String buy = "b";
-    static String sell = "s";
+    static String buy = "B";
+    static String sell = "S";
     private static final String del=" ";
     private static int curAskSize;
     private static float curAskTotal;
@@ -55,9 +56,9 @@ class Main {
 
                 //PRINT OUT CHANGES
                 if (curAskTotal != oldAskTotal)
-                    System.out.println(timeStamp + del + "B" + del + (curAskTotal == 0.0 ? "NA" : formatter.format(curAskTotal)));
+                    System.out.println(timeStamp + del + buy + del + (curAskTotal == 0.0 ? "NA" : formatter.format(curAskTotal)));
                 else if (curBidTotal != oldBidTotal)
-                    System.out.println(timeStamp + del + "S" + del + (curBidTotal == 0.0 ? "NA" : formatter.format(curBidTotal)));
+                    System.out.println(timeStamp + del + sell + del + (curBidTotal == 0.0 ? "NA" : formatter.format(curBidTotal)));
                 oldAskTotal = curAskTotal;
                 oldBidTotal = curBidTotal;
 
@@ -88,17 +89,17 @@ class Main {
                             orderBook.get(newReduceOrder.id).numStocks -= newReduceOrder.numStocks;
 
                             //UPDATES CURRENT TARGET TOTALS
-                            if (orderBook.get(newReduceOrder.id).side.equals("B"))
+                            if (orderBook.get(newReduceOrder.id).side.equals(buy))
                                 curBidSize -= newReduceOrder.numStocks;
-                            else if (orderBook.get(newReduceOrder.id).side.equals("S"))
+                            else if (orderBook.get(newReduceOrder.id).side.equals(sell))
                                 curAskSize -= newReduceOrder.numStocks;
 
                             //REMOVES INVALID ORDERS
                             if (orderBook.get(newReduceOrder.id).numStocks <= 0) {
                                 Entry entryToBeRemoved = new Entry(newReduceOrder.id, orderBook.get(newReduceOrder.id).price);
-                                if (orderBook.get(newReduceOrder.id).side.equals("S")) {
+                                if (orderBook.get(newReduceOrder.id).side.equals(sell)) {
                                     resolveRemove(askHeap,entryToBeRemoved);
-                                } else if (orderBook.get(newReduceOrder.id).side.equals("B")) {
+                                } else if (orderBook.get(newReduceOrder.id).side.equals(buy)) {
                                     resolveRemove(bidHeap,entryToBeRemoved);
                                 }
 
@@ -154,20 +155,18 @@ class Main {
                 index++;
             }
             System.out.println("ORDER BOOK:\t" + orderBook);
-
-
         } catch (IOException e) {
             System.out.println("Exception:\t"+e);
         }
         System.out.println("DONE");
     }
 
-    private static boolean validateOrder(String line) {
+    static boolean validateOrder(String line) {
         String regexValidator = "\\d+\\sR\\s\\w+\\s+\\d+|\\d+\\sA\\s\\w+\\s[SB]\\s\\d+\\.\\d{2,}\\s\\d+";
         return line.matches(regexValidator);
     }
 
-    private static Order parseOrder(String line, int lineNumber) throws Exception {
+    static Order parseOrder(String line, int lineNumber) throws Exception {
         if (validateOrder(line)) {
             String delim = "[ ]+";
             String[] params = line.split(delim);
