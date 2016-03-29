@@ -47,7 +47,7 @@ public class MainTest {
     @Test
     public void parseReduceTest() throws Exception {
         String goodAddOrder1="28800744 R b 100";
-        ReduceOrder controll = new ReduceOrder(28800538,"R","b",100,0);
+        ReduceOrder controll = new ReduceOrder(28800744,"R","b",100,0);
 
         assertEquals("Controll id should match parsed addOrder",controll.id,Main.parseOrder(goodAddOrder1,0).id);
         assertEquals("Controll numStocks should match parsed addOrder",controll.numStocks,Main.parseOrder(goodAddOrder1,0).numStocks);

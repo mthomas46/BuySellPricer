@@ -52,7 +52,7 @@ class Main {
             String line;
             int index = 0;
             //READS LINE
-            while ((line = br.readLine()) != null && index < 100) {
+            while ((line = br.readLine()) != null ) {
 
                 //PRINT OUT CHANGES
                 if (curAskTotal != oldAskTotal)
