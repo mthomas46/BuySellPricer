@@ -1,7 +1,5 @@
 package com.mjt;
 
-import com.sun.istack.internal.NotNull;
-
 import java.text.DecimalFormat;
 import java.util.*;
 import java.io.*;
@@ -199,7 +197,7 @@ class Entry {
     final String id;
     final float price;
 
-    public Entry(@NotNull String id, @NotNull float price) {
+    public Entry( String id,  float price) {
         this.id = id;
         this.price = price;
     }
@@ -233,7 +231,7 @@ class Order {
     int numStocks;
     private final int lineNumber;
 
-    Order(@NotNull int timestamp, @NotNull String id, @NotNull int numStocks, @NotNull int lineNumber) {
+    Order( int timestamp,  String id,  int numStocks,  int lineNumber) {
         this.timestamp = timestamp;
         this.id = id;
         this.numStocks = numStocks;
@@ -246,7 +244,7 @@ class AddOrder extends Order {
     final String side;
     final float price;
 
-    public AddOrder(@NotNull int timestamp, @NotNull String A, @NotNull String id, @NotNull String side, @NotNull float price, @NotNull int numStocks, @NotNull int lineNumber) {
+    public AddOrder( int timestamp,  String A,  String id,  String side,  float price,  int numStocks,  int lineNumber) {
         super(timestamp, id, numStocks, lineNumber);
         this.price = price;
         this.A = A;
@@ -263,7 +261,7 @@ class AddOrder extends Order {
 class ReduceOrder extends Order {
     private final String R;
 
-    public ReduceOrder(@NotNull int timestamp, @NotNull String R, @NotNull String id, @NotNull int numStocks, @NotNull int lineNumber) {
+    public ReduceOrder( int timestamp,  String R,  String id,  int numStocks,  int lineNumber) {
         super(timestamp, id, numStocks, lineNumber);
         this.R = R;
     }

@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5676395b-06f5-49c2-963a-821905a578ac" name="Default" comment="" />
+    <list default="true" id="5676395b-06f5-49c2-963a-821905a578ac" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Pricer/com/mjt/AddOrder.class" afterPath="$PROJECT_DIR$/out/production/Pricer/com/mjt/AddOrder.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Pricer/com/mjt/Entry.class" afterPath="$PROJECT_DIR$/out/production/Pricer/com/mjt/Entry.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Pricer/com/mjt/Order.class" afterPath="$PROJECT_DIR$/out/production/Pricer/com/mjt/Order.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Pricer/com/mjt/ReduceOrder.class" afterPath="$PROJECT_DIR$/out/production/Pricer/com/mjt/ReduceOrder.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/mjt/Main.java" afterPath="$PROJECT_DIR$/src/com/mjt/Main.java" />
+    </list>
     <ignored path="Pricer.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -25,16 +33,24 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/mjt/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="37" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
+            <state relative-caret-position="238">
+              <caret line="14" column="37" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#validateOrder#0;class#Main#0" expanded="false" />
                 <element signature="method#parseOrder#0;class#Main#0" expanded="false" />
                 <element signature="method#resolveRemove#0;class#Main#0" expanded="false" />
-                <marker date="1459208285427" expanded="true" signature="2638:3295" placeholder="..." />
-                <marker date="1459208285427" expanded="true" signature="3446:4922" placeholder="..." />
-                <marker date="1459208285427" expanded="true" signature="3463:4900" placeholder="..." />
+                <element signature="e#9376#9377#0" expanded="true" />
+                <element signature="e#9406#9407#0" expanded="true" />
+                <element signature="e#9437#9438#0" expanded="true" />
+                <element signature="e#9470#9471#0" expanded="true" />
+                <element signature="e#9516#9517#0" expanded="true" />
+                <element signature="e#9574#9575#0" expanded="true" />
+                <element signature="e#10570#10571#0" expanded="true" />
+                <element signature="e#10670#10671#0" expanded="true" />
+                <marker date="1459212310671" expanded="true" signature="2597:3254" placeholder="..." />
+                <marker date="1459212310671" expanded="true" signature="3405:4881" placeholder="..." />
+                <marker date="1459212310671" expanded="true" signature="3422:4859" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -45,14 +61,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="2057">
               <caret line="149" column="8" selection-start-line="149" selection-start-column="8" selection-end-line="149" selection-end-column="8" />
-              <folding>
-                <element signature="e#0#22438#0" expanded="false" />
-                <element signature="imports" expanded="false" />
-                <element signature="e#7819#7820#0" expanded="false" />
-                <element signature="e#7872#7873#0" expanded="false" />
-                <element signature="e#14106#14107#0" expanded="false" />
-                <element signature="e#14155#14156#0" expanded="false" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -66,6 +75,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -111,8 +123,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -152,6 +162,8 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -466,7 +478,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -480,7 +492,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32932165" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1108742" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1108742" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -535,9 +547,17 @@
             <element signature="method#validateOrder#0;class#Main#0" expanded="false" />
             <element signature="method#parseOrder#0;class#Main#0" expanded="false" />
             <element signature="method#resolveRemove#0;class#Main#0" expanded="false" />
-            <marker date="1459208285427" expanded="true" signature="2638:3295" placeholder="..." />
-            <marker date="1459208285427" expanded="true" signature="3446:4922" placeholder="..." />
-            <marker date="1459208285427" expanded="true" signature="3463:4900" placeholder="..." />
+            <element signature="e#9376#9377#0" expanded="true" />
+            <element signature="e#9406#9407#0" expanded="true" />
+            <element signature="e#9437#9438#0" expanded="true" />
+            <element signature="e#9470#9471#0" expanded="true" />
+            <element signature="e#9516#9517#0" expanded="true" />
+            <element signature="e#9574#9575#0" expanded="true" />
+            <element signature="e#10570#10571#0" expanded="true" />
+            <element signature="e#10670#10671#0" expanded="true" />
+            <marker date="1459212310671" expanded="true" signature="2597:3254" placeholder="..." />
+            <marker date="1459212310671" expanded="true" signature="3405:4881" placeholder="..." />
+            <marker date="1459212310671" expanded="true" signature="3422:4859" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -546,14 +566,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2057">
           <caret line="149" column="8" selection-start-line="149" selection-start-column="8" selection-end-line="149" selection-end-column="8" />
-          <folding>
-            <element signature="e#0#22438#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="e#7819#7820#0" expanded="false" />
-            <element signature="e#7872#7873#0" expanded="false" />
-            <element signature="e#14106#14107#0" expanded="false" />
-            <element signature="e#14155#14156#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -566,9 +579,49 @@
             <element signature="method#validateOrder#0;class#Main#0" expanded="false" />
             <element signature="method#parseOrder#0;class#Main#0" expanded="false" />
             <element signature="method#resolveRemove#0;class#Main#0" expanded="false" />
-            <marker date="1459208285427" expanded="true" signature="2638:3295" placeholder="..." />
-            <marker date="1459208285427" expanded="true" signature="3446:4922" placeholder="..." />
-            <marker date="1459208285427" expanded="true" signature="3463:4900" placeholder="..." />
+            <element signature="e#9376#9377#0" expanded="true" />
+            <element signature="e#9406#9407#0" expanded="true" />
+            <element signature="e#9437#9438#0" expanded="true" />
+            <element signature="e#9470#9471#0" expanded="true" />
+            <element signature="e#9516#9517#0" expanded="true" />
+            <element signature="e#9574#9575#0" expanded="true" />
+            <element signature="e#10570#10571#0" expanded="true" />
+            <element signature="e#10670#10671#0" expanded="true" />
+            <marker date="1459212310671" expanded="true" signature="2597:3254" placeholder="..." />
+            <marker date="1459212310671" expanded="true" signature="3405:4881" placeholder="..." />
+            <marker date="1459212310671" expanded="true" signature="3422:4859" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_31/src.zip!/java/util/Comparator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2057">
+          <caret line="149" column="8" selection-start-line="149" selection-start-column="8" selection-end-line="149" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mjt/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#validateOrder#0;class#Main#0" expanded="false" />
+            <element signature="method#parseOrder#0;class#Main#0" expanded="false" />
+            <element signature="method#resolveRemove#0;class#Main#0" expanded="false" />
+            <element signature="e#9376#9377#0" expanded="true" />
+            <element signature="e#9406#9407#0" expanded="true" />
+            <element signature="e#9437#9438#0" expanded="true" />
+            <element signature="e#9470#9471#0" expanded="true" />
+            <element signature="e#9516#9517#0" expanded="true" />
+            <element signature="e#9574#9575#0" expanded="true" />
+            <element signature="e#10570#10571#0" expanded="true" />
+            <element signature="e#10670#10671#0" expanded="true" />
+            <marker date="1459212310671" expanded="true" signature="2597:3254" placeholder="..." />
+            <marker date="1459212310671" expanded="true" signature="3405:4881" placeholder="..." />
+            <marker date="1459212310671" expanded="true" signature="3422:4859" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -623,29 +676,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2057">
           <caret line="149" column="8" selection-start-line="149" selection-start-column="8" selection-end-line="149" selection-end-column="8" />
-          <folding>
-            <element signature="e#0#22438#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="e#7819#7820#0" expanded="false" />
-            <element signature="e#7872#7873#0" expanded="false" />
-            <element signature="e#14106#14107#0" expanded="false" />
-            <element signature="e#14155#14156#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/mjt/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="37" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
+        <state relative-caret-position="238">
+          <caret line="14" column="37" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#validateOrder#0;class#Main#0" expanded="false" />
             <element signature="method#parseOrder#0;class#Main#0" expanded="false" />
             <element signature="method#resolveRemove#0;class#Main#0" expanded="false" />
-            <marker date="1459208285427" expanded="true" signature="2638:3295" placeholder="..." />
-            <marker date="1459208285427" expanded="true" signature="3446:4922" placeholder="..." />
-            <marker date="1459208285427" expanded="true" signature="3463:4900" placeholder="..." />
+            <element signature="e#9376#9377#0" expanded="true" />
+            <element signature="e#9406#9407#0" expanded="true" />
+            <element signature="e#9437#9438#0" expanded="true" />
+            <element signature="e#9470#9471#0" expanded="true" />
+            <element signature="e#9516#9517#0" expanded="true" />
+            <element signature="e#9574#9575#0" expanded="true" />
+            <element signature="e#10570#10571#0" expanded="true" />
+            <element signature="e#10670#10671#0" expanded="true" />
+            <marker date="1459212310671" expanded="true" signature="2597:3254" placeholder="..." />
+            <marker date="1459212310671" expanded="true" signature="3405:4881" placeholder="..." />
+            <marker date="1459212310671" expanded="true" signature="3422:4859" placeholder="..." />
           </folding>
         </state>
       </provider>
